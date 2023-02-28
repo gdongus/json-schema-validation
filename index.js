@@ -49,20 +49,16 @@ var schema = {
                             "type": "string"
                         },
                         "name": {
-                            "type": "string",
-                            "description": "Name of the branch e.g. Fielmann Zentrale"
+                            "type": "string"
                         },
                         "addon": {
-                            "type": "string",
-                            "description": "Additional information."
+                            "type": "string"
                         },
                         "phone": {
-                            "type": "string",
-                            "description": "The phone number of the branch."
+                            "type": "string"
                         },
                         "fax": {
-                            "type": "string",
-                            "description": "The fax number of the branch."
+                            "type": "string"
                         }
                     }
                 },
@@ -74,24 +70,19 @@ var schema = {
                     }
                 },
                 "region": {
-                    "type": "string",
-                    "description": "E.g. DE_2"
+                    "type": "string"
                 },
                 "regionName": {
-                    "type": "string",
-                    "description": "E.g. Norddeutschland"
+                    "type": "string"
                 },
                 "area": {
-                    "type": "string",
-                    "description": "E.g. DEU"
+                    "type": "string"
                 },
                 "areaName": {
-                    "type": "string",
-                    "description": "E.g. Deutschland"
+                    "type": "string"
                 },
                 "companyName": {
-                    "type": "string",
-                    "description": "E.g. Fielmann GmbH"
+                    "type": "string"
                 },
                 "openingHours": {
                     "type": "object",
@@ -103,12 +94,10 @@ var schema = {
                                 "additionalProperties": true,
                                 "properties": {
                                     "open": {
-                                        "type": "string",
-                                        "description": "The opening time of the branch"
+                                        "type": "string"
                                     },
                                     "close": {
-                                        "type": "string",
-                                        "description": "The closing time of the branch"
+                                        "type": "string"
                                     }
                                 }
                             }
@@ -131,12 +120,10 @@ var schema = {
                                                 "additionalProperties": true,
                                                 "properties": {
                                                     "open": {
-                                                        "type": "string",
-                                                        "description": "The opening time of the branch"
+                                                        "type": "string"
                                                     },
                                                     "close": {
-                                                        "type": "string",
-                                                        "description": "The closing time of the branch"
+                                                        "type": "string"
                                                     }
                                                 }
                                             }
@@ -171,8 +158,8 @@ let instance = {
             "state": "HH",
             "city": "Hamburg",
             "zipCode": "22083",
-            "street": "Weidestraße 118a",
-            "name": "Fielmann Zentrale",
+            "street": "Str 23",
+            "name": " Zentrale",
             "addon": "ist keine NDL",
             "phone": "040 123 45 67",
             "fax": "040 123 45 68"
@@ -212,7 +199,7 @@ let instance = {
         "regionName": "Norddeutschland",
         "area": "DEU",
         "areaName": "Deutschland",
-        "companyName": "Fielmann GmbH"
+        "companyName": "Foo GmbH"
     },
     "0124": {
 
